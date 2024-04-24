@@ -1,23 +1,9 @@
-// base : https://www.typescriptlang.org/docs/handbook/modules/guides/choosing-compiler-options.html#im-using-a-bundler
 {
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
-    "moduleResolution": "Node16",
-    "allowSyntheticDefaultImports": true,
-
-    "jsx": "react-jsx",
-    "noEmit": true, // we use a bundler
-
-    // Type checking
-    "strict": true,
-    "alwaysStrict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "verbatimModuleSyntax": true,
-    "allowArbitraryExtensions": true,
-    "noFallthroughCasesInSwitch": true,
-    "forceConsistentCasingInFileNames": true
+    "moduleResolution": "NodeNext",
+    "allowSyntheticDefaultImports": true
   },
-  "files": ["eslint.config.mjs", "knip.config.ts"]
+  "files": ["eslint.config.js"]
 }
