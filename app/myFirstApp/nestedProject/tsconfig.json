@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "module": "none",
+    "target": "es6",
+    "rootDir": "src",
+    "lib": ["dom", "es6"],
+    "esModuleInterop": false,
+    "outDir": "./dist",
+    "noEmitOnError": true,
+    "typeRoots": ["./types"]
+  },
+  "files": ["src/walk_kix_app.ts"]
+}
